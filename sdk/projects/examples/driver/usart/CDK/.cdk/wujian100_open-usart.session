@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="E:\Project\T-HEAD\wujian100_open-master\sdk\projects\examples\driver\usart\CDK\wujian100_open-usart.cdkws">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="E:\Project\T-HEAD\wujian100_open-master\sdk\projects\examples\driver\usart\CDK\wujian100_open-usart.cdkws" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="E:\Project\T-HEAD\wujian100_open-master\sdk\projects\examples\driver\usart\example_usart.c" Name="FileName"/>
+      <wxString Value="wujian100_open-usart" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="13" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="E:\Project\T-HEAD\wujian100_open-master\sdk\csi_driver\wujian100_open\include\soc.h" Name="FileName"/>
+      <wxString Value="wujian100_open-usart" Name="ProjectName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="1" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
