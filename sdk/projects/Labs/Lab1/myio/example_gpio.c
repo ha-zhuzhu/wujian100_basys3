@@ -16,14 +16,6 @@
 #include "io.h"
 
 #define MY_IO_BASE (0x40010000UL)	// 0x40010000
-#define VGA_RAM_BASE (0x40020000UL) // 0x40020000
-// #define
-#define PIXEL_PER_ROW 320
-#define PIXEL_PER_COL 240
-#define PIXEL_PER_BYTE 2
-#define ADDR_OFFSET_PER_ROW (PIXEL_PER_ROW / PIXEL_PER_BYTE) // 160
-#define BYTE_PER_PACK 4									   // 32-bit pack
-#define PIXEL_PER_PACK (PIXEL_PER_BYTE *BYTE_PER_PACK)	   // 8
 
 volatile static bool int_flag = 1;
 
@@ -73,9 +65,9 @@ int example_gpio(pin_name_e gpio_pin)
 	short data = 0;
 
 	volatile int *myio = (volatile int *)MY_IO_BASE;
-	*myio = 0x00;
-	*myio = 0x1;
-	*myio = 0x2;
+	*myio = 0x00;mdelay(500);
+	*myio = 0x1;mdelay(500);
+	*myio = 0x2;mdelay(500);
 	*myio = 0x4;
 
 	while (1)
@@ -93,10 +85,6 @@ int example_gpio(pin_name_e gpio_pin)
 
 int main(void)
 {
-	//    return example_gpio(EXAMPLE_GPIO_PIN);
-	//	vgaram_write_test();
-	flush_canvas(0xffffffff);
-	display_picture(64, 20, 200, 200, picture_data);
-//	vgaram_write_test();
+	return example_gpio(EXAMPLE_GPIO_PIN);
 	return 0;
 }
