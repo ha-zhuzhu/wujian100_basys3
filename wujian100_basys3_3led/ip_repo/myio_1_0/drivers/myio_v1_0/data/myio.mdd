@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER myio
+	OPTION supported_peripherals = (myio);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = myio;
+END DRIVER

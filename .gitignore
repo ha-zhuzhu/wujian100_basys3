@@ -2,13 +2,12 @@
 Obj/
 
 Lst/
-**/cdkws.mk
-**/wujian100_open-gpio.mk
-**/wujian100_open-gpio.modify.bat
-**/wujian100_open-gpio.txt
-**/.cache
-**/.cdk
-**/__workspace_pack__
-**/*.cdkws
-**/.vscode
-**/.idea
+cdkws.mk
+wujian100_open-gpio.mk
+wujian100_open-gpio.modify.bat
+wujian100_open-gpio.txt
+.cache
+.cdk
+__workspace_pack__
+*.cdkws
+.idea
